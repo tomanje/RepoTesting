@@ -1,7 +1,7 @@
 ---
 - name: Hello Bob Example
-  hosts: all
+  hosts: localhost
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello there Bob!"
+        msg: "From JET's github: Hello there Bob!"
